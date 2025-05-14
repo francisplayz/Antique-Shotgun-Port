@@ -1,0 +1,213 @@
+{
+  "mod_elements": [
+    {
+      "name": "BuckshotShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buckshot_shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/antiqueshotgun/models/item/buckshot_shell.json",
+          "src/main/java/ewewukek/antiqueshotgun/item/BuckshotShellItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/ewewukek/antiqueshotgun/entity/BulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AntiqueShotgun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antique_shotgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/antiqueshotgun/models/item/antique_shotgun.json",
+          "src/main/java/ewewukek/antiqueshotgun/item/AntiqueShotgunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElderHuntsman",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_huntsman",
+      "metadata": {
+        "files": [
+          "src/main/java/ewewukek/antiqueshotgun/entity/ElderHuntsmanEntity.java",
+          "src/main/java/ewewukek/antiqueshotgun/client/renderer/ElderHuntsmanRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Brute",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brute",
+      "metadata": {
+        "files": [
+          "src/main/java/ewewukek/antiqueshotgun/enchantment/BruteEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "HandmadeAmmo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handmade_ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/ewewukek/antiqueshotgun/item/HandmadeAmmoItem.java",
+          "src/main/resources/assets/antiqueshotgun/models/item/handmade_ammo.json"
+        ]
+      }
+    },
+    {
+      "name": "HandmadeShotgun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handmade_shotgun",
+      "metadata": {
+        "files": [
+          "src/main/java/ewewukek/antiqueshotgun/item/HandmadeShotgunItem.java",
+          "src/main/resources/assets/antiqueshotgun/models/item/handmade_shotgun.json"
+        ]
+      }
+    },
+    {
+      "name": "Ammo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/ewewukek/antiqueshotgun/item/AmmoItem.java",
+          "src/main/resources/assets/antiqueshotgun/models/item/ammo.json"
+        ]
+      }
+    },
+    {
+      "name": "RubberAmmo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_ammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/antiqueshotgun/models/item/rubber_ammo.json",
+          "src/main/java/ewewukek/antiqueshotgun/item/RubberAmmoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SawdOffShotgun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawd_off_shotgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/antiqueshotgun/models/item/sawd_off_shotgun.json",
+          "src/main/java/ewewukek/antiqueshotgun/item/SawdOffShotgunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shotgun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/antiqueshotgun/models/item/shotgun.json",
+          "src/main/java/ewewukek/antiqueshotgun/item/ShotgunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SlugAmmo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slug_ammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/antiqueshotgun/models/item/slug_ammo.json",
+          "src/main/java/ewewukek/antiqueshotgun/item/SlugAmmoItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bullet.shot",
+      "files": [
+        "shotgun_fire"
+      ],
+      "category": "hostile",
+      "subtitle": "Shotgun fires"
+    }
+  ],
+  "tag_elements": {
+    "ENTITIES:minecraft:raiders": [
+      "~CUSTOM:ElderHuntsman"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.antiqueshotgun.sawd_off_shotgun": "Sawd Off Shotgun",
+      "item.antiqueshotgun.handmade_ammo": "Handmade Ammo",
+      "subtitles.bullet.shot": "Shotgun fires",
+      "enchantment.antiqueshotgun.brute": "Brute",
+      "item.antiqueshotgun.slug_ammo": "Slug Ammo",
+      "item.antiqueshotgun.buckshot_shell": "Buckshot Shell",
+      "item.antiqueshotgun.rubber_ammo": "Rubber Ammo",
+      "item.antiqueshotgun.ammo": "Ammo",
+      "item.antiqueshotgun.shotgun": "Shotgun",
+      "item.antiqueshotgun.handmade_shotgun": "Handmade Shotgun",
+      "item.antiqueshotgun.antique_shotgun": "Antique Shotgun",
+      "entity.antiqueshotgun.elder_huntsman": "Elder Huntsman"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "antiqueshotgun",
+    "modName": "Antique Shotgun",
+    "version": "0.0.5",
+    "description": "placeholder",
+    "author": "ewewukek, Redrix",
+    "websiteURL": "https://github.com/ewewukek/mc-antiqueshotgun",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Redrix for creating the real mod",
+    "modElementsPackage": "ewewukek.antiqueshotgun"
+  },
+  "mcreatorVersion": 202400452410
+}
